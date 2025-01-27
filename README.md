@@ -11,19 +11,19 @@ Inspired by the [Class Variance Authority (CVA)](https://github.com/joe-bell/cva
 
 ```bash
 # npm
-npm install @youftek/style-variance-authority
+npm install @oxidia/style-variance-authority
 
 # yarn
-yarn add @youftek/style-variance-authority
+yarn add @oxidia/style-variance-authority
 
 # pnpm
-pnpm install @youftek/style-variance-authority
+pnpm install @oxidia/style-variance-authority
 ```
 
 ## Usage
 
 ```typescript
-import { sva, type StyleVariantProps } from "@youftek/style-variance-authority";
+import { sva, type StyleVariantProps } from "@oxidia/style-variance-authority";
 
 const buttonContainer = sva({
   base: {
@@ -75,9 +75,9 @@ This package is inspired by the [Class Variance Authority (CVA)](https://github.
 
 [Apache-2.0 License](/LICENSE)
 
-[npm-version-src]: https://img.shields.io/npm/v/@youftek/style-variance-authority/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@youftek/style-variance-authority
-[npm-downloads-src]: https://img.shields.io/npm/dm/@youftek/style-variance-authority.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/@youftek/style-variance-authority
-[license-src]: https://img.shields.io/npm/l/@youftek/style-variance-authority.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@youftek/style-variance-authority
+[npm-version-src]: https://img.shields.io/npm/v/@oxidia/style-variance-authority/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@oxidia/style-variance-authority
+[npm-downloads-src]: https://img.shields.io/npm/dm/@oxidia/style-variance-authority.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@oxidia/style-variance-authority
+[license-src]: https://img.shields.io/npm/l/@oxidia/style-variance-authority.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@oxidia/style-variance-authority
