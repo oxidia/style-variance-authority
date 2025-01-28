@@ -35,7 +35,8 @@
     "sva",
     "style",
     "styles",
-    "variants"
+    "variants",
+    "react-native"
   ],
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.3",
