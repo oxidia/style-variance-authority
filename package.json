@@ -1,7 +1,7 @@
 {
   "name": "@oxidia/style-variance-authority",
   "description": "Style Variance Authority",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -35,7 +35,8 @@
     "sva",
     "style",
     "styles",
-    "variants"
+    "variants",
+    "react-native"
   ],
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.3",
