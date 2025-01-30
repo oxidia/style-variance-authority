@@ -1,5 +1,11 @@
 # @oxidia/style-variance-authority
 
+## 1.0.3
+
+### Patch Changes
+
+- 0724e58: 100% test coverage
+
 ## 1.0.2
 
 ### Patch Changes
