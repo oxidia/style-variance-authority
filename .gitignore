@@ -4,6 +4,9 @@ node_modules/
 # build
 dist
 
+# test
+/coverage
+
 # debug
 npm-debug.*
 yarn-debug.*
