@@ -1,12 +1,13 @@
 {
   "name": "@oxidia/style-variance-authority",
   "description": "Style Variance Authority",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "dev": "vitest",
     "lint": "tsc --noEmit",
     "format": "prettier --write .",
@@ -43,6 +44,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.3",
     "@changesets/cli": "^2.27.12",
+    "@vitest/coverage-v8": "^3.0.4",
     "prettier": "^3.4.2",
     "react-native": "*",
     "typescript": "^5.7.3",
