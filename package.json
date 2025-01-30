@@ -1,7 +1,7 @@
 {
   "name": "@oxidia/style-variance-authority",
   "description": "Style Variance Authority",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -14,6 +14,8 @@
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "ci": "npm run build && npm run check-format && npm run check-exports && npm run lint && npm run test",
     "local-release": "changeset version && changeset publish",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
     "prepublishOnly": "npm run ci"
   },
   "license": "Apache-2.0",
