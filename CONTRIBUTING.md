@@ -30,6 +30,7 @@ prefix/branch-name
 - docs: changes to the documentation
 - refactor: refactoring production code, eg. renaming a variable
 - test: adding missing tests, refactoring tests; no production code change
+- build: fix or improve build scripts, no production code change
 
 #### Example
 
