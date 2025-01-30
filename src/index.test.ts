@@ -185,6 +185,35 @@ describe("sva", () => {
     ]);
   });
 
+  test("with falsy variants", () => {
+    const buttonWithBooleanVariants = sva({
+      variants: {
+        disabled: {
+          0: null,
+          1: {
+            opacity: 0.7,
+          },
+        },
+      },
+      defaultVariants: {
+        disabled: 0,
+      },
+    });
+
+    const result1 = buttonWithBooleanVariants();
+
+    const result2 = buttonWithBooleanVariants({
+      disabled: 1,
+    });
+
+    expect(result1).toMatchObject([null]);
+    expect(result2).toMatchObject([
+      {
+        opacity: 0.7,
+      },
+    ]);
+  });
+
   test("with array of styles", () => {
     const buttonWithArrayOfSyles = sva({
       variants: {
