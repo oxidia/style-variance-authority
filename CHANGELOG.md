@@ -1,5 +1,11 @@
 # @oxidia/style-variance-authority
 
+## 1.0.2
+
+### Patch Changes
+
+- 1aeb3e8: Add contribution guide
+
 ## 1.0.1
 
 ### Patch Changes
