@@ -1,5 +1,11 @@
 # @oxidia/style-variance-authority
 
+## 1.0.4
+
+### Patch Changes
+
+- f503125: Move vitest config file to the root of the repository
+
 ## 1.0.3
 
 ### Patch Changes

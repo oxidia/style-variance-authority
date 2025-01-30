@@ -23,5 +23,5 @@
 
     "declarationMap": true
   },
-  "exclude": ["node_modules", "coverage", "dist"]
+  "exclude": ["node_modules", "coverage", "dist", "vitest.config.ts"]
 }
