@@ -1,5 +1,11 @@
 # @oxidia/style-variance-authority
 
+## 1.0.5
+
+### Patch Changes
+
+- 72c12fc: Exclude test files from production build
+
 ## 1.0.4
 
 ### Patch Changes
